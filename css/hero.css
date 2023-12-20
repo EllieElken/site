@@ -1,0 +1,57 @@
+.HeroSection {
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+
+.HeroSection > .Label {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+    height: auto;
+}
+
+.HeroSection > .Rocket {
+    position: absolute;
+    top: 400px;
+    left: 170px;
+
+
+    width: 800px;
+    height: auto;
+}
+
+
+.HeroSection > .Description {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+
+    width: 730px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.HeroSection > .Description > .Text {
+    align-self: flex-start;
+    color: var(--white);
+
+}
+
+.HeroSection > .Description > .MoreLink {
+    align-self: flex-end;
+    color: var(--blue);
+}
+

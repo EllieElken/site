@@ -1,0 +1,35 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 120px;
+
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.Header > .Logo {
+    width: auto;
+    height: 80px;
+}
+
+.Header > .Navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    color: var(--white);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.Header > .Navigation > .Link {
+    text-decoration: none;
+    color: inherit;
+}

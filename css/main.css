@@ -1,0 +1,41 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+
+    position: relative;
+}
+
+.Main > .Background {
+    position: absolute;
+    width: 1920px;
+    height: 100%;
+}
+
+.Main > .Background > img {
+    position: absolute;
+}
+
+.Main > .Background > img:nth-child(1) {
+    width: 220px;
+    height: 220px;
+    top: 200px;
+    right: 300px;
+    transform: rotate(-18deg);
+}
+
+.Main > .Background > img:nth-child(2) {
+    width: 120px;
+    height: 120px;
+    top: 550px;
+    right: 450px;
+}
+
+.Main > .Background > img:nth-child(3) {
+    width: 280px;
+    height: 320px;
+    top: 600px;
+    left: 320px;
+}
+
