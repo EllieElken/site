@@ -4,6 +4,8 @@
     align-items: center;
     width: 1110px;
 
+    gap: 150px;
+
     position: relative;
 }
 
@@ -11,6 +13,7 @@
     position: absolute;
     width: 1920px;
     height: 100%;
+    overflow: hidden;
 }
 
 .Main > .Background > img {
@@ -26,16 +29,69 @@
 }
 
 .Main > .Background > img:nth-child(2) {
+    width: 189px;
+    height: 189px;
+    top: 1735px;
+    left: 118px;
+}
+
+.Main > .Background > img:nth-child(3) {
+    width: 339px;
+    height: 339px;
+    top: 2391px;
+    left: 1709px;
+}
+.Main > .Background > img:nth-child(4) {
+    width: 750px;
+    height: 785px;
+    top: 4303px;
+    left: -464px;
+}
+.Main > .Background > img:nth-child(5) {
+    width: 280px;
+    height: 280px;
+    top: 5597px;
+    left: 1731px;
+}
+
+.Main > .Background > img:nth-child(6) {
     width: 120px;
     height: 120px;
     top: 550px;
     right: 450px;
 }
 
-.Main > .Background > img:nth-child(3) {
+.Main > .Background > img:nth-child(7) {
     width: 280px;
     height: 320px;
     top: 600px;
     left: 320px;
 }
 
+.Main > .Background > img:nth-child(8) {
+    width: 280px;
+    height: 321px;
+    top: 1207px;
+    right: 248px;
+}
+
+.Main > .Background > img:nth-child(9) {
+    width: 280px;
+    height: 312px;
+    top: 2700px;
+    left: 202px;
+}
+
+.Main > .Background > img:nth-child(10) {
+    width: 280px;
+    height: 321px;
+    top: 3700px;
+    right: 100px;
+}
+
+.Main > .Background > img:nth-child(11) {
+    width: 140px;
+    height: 150px;
+    top: 5400px;
+    left: 228px;
+}

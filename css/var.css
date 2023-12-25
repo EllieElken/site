@@ -1,7 +1,11 @@
 :root {
-    --white: rgb(255, 255, 255);
+    --white: white;
     --black: black;
     --blue: #00E1FF;
 
     --main-bg: #171717;
+
+    --orange: #FC6840;
+    --violet: #9747FF;
+    --gray: #A8B2B4;
 }

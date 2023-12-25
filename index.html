@@ -2,25 +2,21 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>Основной файл index.html</title>
+        <title>Planet express</title>
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/var.css">
         <link rel="stylesheet" href="./css/global.css">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/main.css">
         <link rel="stylesheet" href="./css/hero.css">
+        <link rel="stylesheet" href="./css/about.css">
+        <link rel="stylesheet" href="./css/characters.css">
+        <link rel="stylesheet" href="./css/video.css">
         <link rel="stylesheet" href="./css/footer.css">
-
-        <style>
-            .Message {
-                background: seagreen;
-            }
-        </style>
     </head>
     <body>
         <header class="Header">
@@ -35,8 +31,16 @@
         <main class="Main">
             <div class="Background">
                 <img src="./image/planet-1.png">
+                <img src="./image/planet-2.png">
+                <img src="./image/planet-3.png">
+                <img src="./image/planet-4.png">
+                <img src="./image/planet-5.png">
                 <img src="./image/star-1.png">
                 <img src="./image/star-2.png">
+                <img src="./image/star-3.png">
+                <img src="./image/star-4.png">
+                <img src="./image/star-5.png">
+                <img src="./image/star-6.png">
             </div>
             <section class="HeroSection">
                 <img class="Label" src="./image/label.png">
@@ -50,9 +54,151 @@
                     <a class="MoreLink">Узнать больше ></a>
                 </div>
             </section>
+
+            <section class="About">
+                <h1 class="Title">О сериале</h1>
+
+                <div class="Sections">
+                    <div class="Section">
+                        <img class="Illustration" src="./image/fry-avatar.svg">
+                        <p class="Text">
+                            <span>Неудачливый доставщик пиццы Фрай</span><br>
+                            случайно замерзает в канун Нового года и<br>
+                            просыпается через тысячу лет. Его встречают<br>
+                            новые друзья на совершенно не привычной<br>
+                            ему планете.
+                        </p>
+                    </div>
+
+                    <div class="Section">
+                        <p class="Text">
+                            Первой знакомой Фрая становится<br>
+                            <span>одноглазая девушка-мутант Лила</span>,<br>
+                            работающая инспектором по вживанию<br>
+                            чипов. 
+                        </p>
+                        <img class="Illustration" src="./image/leela-avatar.svg">
+                    </div>
+
+                    <div class="Section">
+                        <img class="Illustration" src="./image/bender-avatar.svg">
+                        <p class="Text">
+                            Судьба сводит парня с <span>роботом Бендером</span> и вместе<br>
+                            они отправляются навстречу веселым и порой<br>
+                            небезопасным приключениям. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Characters">
+                <h1 class="Title">Персонажи</h1>
+                <div class="Cards">
+
+                    <div class="Card VioletBorder">
+                        <img class="Illustration" src="./image/leela-card.png">
+                        <div class="Content">
+                            <div class="Heading">
+                                <h1 class="Name VioletText">
+                                    Туранга Лила
+                                </h1>
+                                <h2 class="BirthDate">
+                                    (родилась 29 июля 2975 года)
+                                </h2>
+                            </div>
+                            <p class="Descr">
+                                - <span class="VioletText">капитан</span> корабля "Межпланетный экспресс".<br><br>
+                                Родители были <span class="VioletText">мутантами</span>, как и большинство жителей подземного городка.<br><br>
+
+                                Однако Лила оказалась весьма привлекательной, поэтому было решено <span class="VioletText">отправить её наверх</span>.<br><br>
+
+                                Родители подкинули её в Новый Нью-Йорк, приложив записку на инопланетном языке, 
+                                чтобы она сошла за представительницу внеземной цивилизации, a не мутанта.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="Card OrangeBorder">
+                        <img class="Illustration" src="./image/fry-card.png">
+                        <div class="Content">
+                            <div class="Heading">
+                                <h1 class="Name OrangeText">
+                                    Филип Дж.Фрай
+                                </h1>
+                                <h2 class="BirthDate">(родилась 29 июля 2975 года)</h2>
+                            </div>
+                            <p class="Descr">
+                                более известный как Фрай, родился 14 августа 1974 года — персонаж, 
+                                <span class="OrangeText">главный протагонист Футурамы</span>», который <span class="OrangeText">заморозил 
+                                себя в криогенной камере</span> за несколько секунд до наступления 2000 года.<br><br>
+
+                                <span>Разморозился</span> в конце 2999 года, и в дальнейшем 
+                                стал курьером в компании «Межпланетный Экспресс
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="Card GrayBorder">
+                        <img class="Illustration" src="./image/bender-card.png">
+
+                        <div class="Content">
+                            <div class="Heading">
+                                <h1 class="Name GrayText">Родригез Бендер</h1>
+                                <h2 class="BirthDate">(родилась 29 июля 2975 года)</h2>
+                            </iv>
+                            <p class="Descr">
+                                полное имя Бендер Бендинг <span class="GrayText">(Сгибающий)</span> Родригес 
+                                — герой мультсериала «Футурама», робот-сгибальщик.<br><br>
+                                
+                                Комический <span class="GrayText">антигерой</span>, сквернослов, алкоголик,
+                                заядлый курильщик сигар, почитатель порнографии для роботов 
+                                (в виде электрических схем), клептоман, повар (его еда 
+                                в большинстве случаев по меньшей мере несъедобна, 
+                                часто опасна для жизни).<br><br>
+                                
+                                В критической ситуации зачастую 
+                                <span class="GrayText">единственный, кто впадает в панику...</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Video">
+                <iframe 
+                    width="863" 
+                    height="485" 
+                    src="https://www.youtube.com/embed/2L_g1RU1uHk" 
+                    title="Новая Футурама - большой обзор культового сериала" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                ></iframe>
+            </section>
         
         </main>
         
-        <footer></footer>
+        <footer class="Footer">
+            <div class="Navigation">
+                <img class="Logo" src="./image/logo.png">
+                <nav class="Navigation">
+                    <a class="Link" href="#about">О сериале</a>
+                    <a class="Link" href="#personality">Персонажи</a>
+                    <a class="Link" href="#player">Плеер</a>
+                </nav>           
+            </div>
+
+            <label class="Description">
+                Сайт имеет развлекательный характер.<br>
+                Все материалы принадлежат их владельцам.
+            </label>
+
+            <label class="Copyright">
+                ©2023 PLANET EXPRESS.
+            </label>
+
+            <img class="Illustration Bender" src="./image/bender-footer.png">
+            <img class="Illustration Roberto" src="./image/roberto-footer.png">
+        </footer>
     </body>
 </html>

@@ -1,0 +1,77 @@
+.Characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 100px;
+
+    width: 100%;
+}
+
+.Characters > .Title {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Characters > .Cards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.Characters > .Cards > .Card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 70px;
+
+    border-radius: 20px;
+    padding: 70px;
+}
+
+
+.Characters .Card > .Illustration {
+    width: 225px;
+    height: 600px;
+}
+
+.Characters .Card > .Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    width: 450px;
+}
+
+.Characters .Card > .Content > .Heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.Characters .Card .Name {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.Characters .Card .BirthDate {
+    color: #6E6E6E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.Characters .Card .Descr {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    line-break: nowrap;
+}

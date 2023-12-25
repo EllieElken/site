@@ -1,0 +1,61 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.Footer > .Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 120px;
+    overflow: hidden;
+
+}
+
+.Footer > .Navigation > .Logo {
+    width: auto;
+    height: 80px;
+}
+
+.Footer > .Navigation > .Navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    color: var(--white);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.Footer > .Navigation > .Navigation > .Link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.Footer > .Description {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.Footer .Illustration.Bender {
+    position: absolute;
+    top: 60px;
+    left: 343px;
+}
+
+.Footer .Illustration.Roberto {
+    position: absolute;
+    top: 60px;
+    left: 544px;
+}
+
+
+

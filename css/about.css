@@ -1,0 +1,59 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    gap: 100px;
+}
+
+.About > .Title {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.About > .Sections {
+    width: 100%;
+}
+
+.About > .Sections > .Section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.About > .Sections > .Section:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.About > .Sections > .Section:nth-child(1) span {
+    color: var(--orange);
+}
+
+
+.About > .Sections > .Section:nth-child(2) {
+    justify-content: flex-end;
+}
+
+.About > .Sections > .Section:nth-child(2) span {
+    color: var(--violet);
+}
+
+.About > .Sections > .Section:nth-child(2) > .Illustration {
+    margin-left: -5em;
+}
+
+.About > .Sections > .Section:nth-child(3) {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.About > .Sections > .Section:nth-child(3) span {
+    color: var(--gray);
+}
+
