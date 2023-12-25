@@ -13,7 +13,7 @@
     z-index: 1;
 }
 
-.Header > .Logo {
+.Header .Logo {
     width: auto;
     height: 80px;
 }
